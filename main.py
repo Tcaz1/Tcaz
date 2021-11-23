@@ -52,7 +52,7 @@ A = 'อีก ' + str(day1.days) + ' สำหรับสอบ #ONET' + '\n' 
 def Job():
   api.update_status(A)
 
-schedule.every().day.at("01:00").do(Job)
+schedule.every().day.at("23:13").do(Job)
 
 
 while True:
