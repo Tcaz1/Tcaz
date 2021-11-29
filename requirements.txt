@@ -1,1 +1,1 @@
-twitter==9.20.0
+twitter==1.19.3
